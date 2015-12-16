@@ -1,0 +1,83 @@
+[{
+	"id":1,
+	"text":"My Documents",
+	"children":[{
+		"id":11,
+		"text":"Photos",
+		"state":"open",
+		"children":[{
+			"id":111,
+			"text":"Friend",
+			"url":"http://kandian.189.cn"
+		},{
+			"id":112,
+			"text":"Wife",
+			"url":"http://kandian.189.cn"
+		},{
+			"id":113,
+			"text":"Company"
+		}]
+	},{
+		"id":12,
+		"text":"Program Files",
+		"state":"closed",
+		"children":[{
+			"id":121,
+			"text":"Intel"
+		},{
+			"id":122,
+			"text":"Java",
+			"attributes":{
+				"p1":"Custom Attribute1",
+				"p2":"Custom Attribute2"
+			}
+		},{
+			"id":123,
+			"text":"Microsoft Office"
+		},{
+			"id":124,
+			"text":"Games",
+			"checked":true
+		}]
+	}]
+}]
+
+[{
+        "id": "1",
+        "text": "功能菜单",
+        "children": [{
+                "id": 1,
+                "text": "系统管理",
+                "state": "open",
+                "children": [{
+                        "id": 2,
+                        "text": "菜单管理",
+                        "checked": true,
+                        "url": "/Where_cms/menus/toMenus"
+                    },
+                    {
+                        "id": 4,
+                        "text": "权限管理",
+                        "checked": true,
+                        "url": "/Where_cms/menus/toPermission"
+                    }],
+                "checked": true
+            },
+            {
+                "id": 5,
+                "text": "管理员管理",
+                "state": "closed",
+                "children": [{
+                        "id": 6,
+                        "text": "管理员管理",
+                        "checked": true,
+                        "url": "/Where_cms/admin/toAdmin"
+                    }],
+                "checked": true
+            },
+            {
+                "id": 7,
+                "text": "用户管理",
+                "state": "closed"
+            }]
+    }]
